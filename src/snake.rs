@@ -10,8 +10,8 @@ impl Snake {
         let mut snake = Snake {
             bits: Vec::new()
         };
-        let snakeHead = SnakeBit::new_head();
-        snake.bits.push(snakeHead);
+        let snake_head = SnakeBit::new_head();
+        snake.bits.push(snake_head);
 
         return snake;
     }

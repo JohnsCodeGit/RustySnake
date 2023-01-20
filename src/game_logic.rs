@@ -9,7 +9,7 @@ pub fn game_loop() {
 
     let mut board = make_board();
     let mut snake = Snake::new();
-    snake.add_bit();
+    //snake.add_bit();
     let mut food = Food::new();
    
 
